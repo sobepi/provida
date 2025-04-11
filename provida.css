@@ -96,15 +96,16 @@ p {
 
 #fundo {
 	position: fixed;
-	width: 100%;
+	width: 100vw;
 	height: auto;
-	object-fit: cover;
+	background-size: cover;
 }
 
-#fundo img {
+#fundo-externo {
 	position: absolute;
-	width: 100%;
-	height: auto;
+	width: 100vw;
+	background-size: cover;
+	height: 100vh;
 }
 
 #menu{
