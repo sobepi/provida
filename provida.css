@@ -103,9 +103,10 @@ p {
 
 #fundo img {
 	position: absolute;
-	min-width: 100%;
-	min-height: auto%;
+	width: 100%;
+	height: auto;
 }
+
 #menu{
 	padding: 30px;
 	word-spacing: 15px;
